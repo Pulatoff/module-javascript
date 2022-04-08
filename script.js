@@ -1,3 +1,6 @@
+const login = require(`./login.js`);
+
+console.log(login);
 // import * as hammasi from './login.js';
 // console.log(hammasi);
 
@@ -28,7 +31,3 @@
 // let sot = kerak();
 // console.log(sot);
 // sot.sotibOl('olma', 100);
-
-const login = require(`./login.js`);
-
-console.log(login);
