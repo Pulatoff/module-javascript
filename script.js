@@ -13,18 +13,22 @@
 
 // console.log('nioyzbek');
 
-function kerak() {
-  let cart = [];
-  let maxsulotlarSoni = 100;
-  let ishchikarSoni = 10;
-  let hamaPul = 1_000_000;
-  function sotibOl(nomi, soni) {
-    cart.push({ nomi, soni });
-    console.log(`Siz ${nomi}ni ${soni} ta oldingiz`);
-  }
-  return { sotibOl, ishchikarSoni, hamaPul };
-}
+// function kerak() {
+//   let cart = [];
+//   let maxsulotlarSoni = 100;
+//   let ishchikarSoni = 10;
+//   let hamaPul = 1_000_000;
+//   function sotibOl(nomi, soni) {
+//     cart.push({ nomi, soni });
+//     console.log(`Siz ${nomi}ni ${soni} ta oldingiz`);
+//   }
+//   return { sotibOl, ishchikarSoni, hamaPul };
+// }
 
-let sot = kerak();
-console.log(sot);
-sot.sotibOl('olma', 100);
+// let sot = kerak();
+// console.log(sot);
+// sot.sotibOl('olma', 100);
+
+const login = require(`./login.js`);
+
+console.log(login);
